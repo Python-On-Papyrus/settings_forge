@@ -1,6 +1,6 @@
 import json
 
-from pysettings.base import BaseSettings
+from settings_forge.base import BaseSettings
 
 
 class JsonSettings(BaseSettings):

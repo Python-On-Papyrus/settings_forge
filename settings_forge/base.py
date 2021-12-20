@@ -1,4 +1,4 @@
-from pysettings.exceptions import SettingsException
+from settings_forge.exceptions import SettingsException
 
 
 class BaseSettings:

@@ -3,7 +3,7 @@ try:
 except ImportError:
     pass
 
-from pysettings.base import BaseSettings
+from settings_forge.base import BaseSettings
 
 
 class YamlSettings(BaseSettings):
