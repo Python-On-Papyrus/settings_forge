@@ -49,6 +49,6 @@ DATABASE_HOST = settings.database['host']
 ### If you want to add your own languages
 All you need to do is import `pysettings.BaseSettings` and
 reassign those functions:
-- read_input_file() - open the input file and return it
-- parse_input_file() - parse the file data
-- dumps() - serialize all the settings to a string
+- `read_input_file()` - open the input file and return it
+- `parse_input_file()` - parse the file data
+- `dumps()` - serialize all the settings to a string

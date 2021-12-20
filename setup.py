@@ -6,6 +6,6 @@ setup(
     description='Configurations for Python applications',
     author='Andrey Ivanov',
     author_email='python.no.papyrus@gmail.com',
-    url='',
-    packages=['distutils', 'distutils.command'],
+    url='https://github.com/Python-On-Papyrus/pysettings',
+    packages=['pysettings'],
 )
